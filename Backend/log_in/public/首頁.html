@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="javascripts/jquery-3.5.1.min.js"></script>
+    <!--------------------------------------CSS---------------------------->
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/in_meeting.css">
+    <link rel="stylesheet" href="stylesheets/root.css">
+    <link rel="stylesheet" href="stylesheets/Allmeeting.css">
+    <!--------------------------------------CSS---------------------------->
+    <script text="javascript" src="javascripts/home.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+        integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script text="javascript" src="javascripts/header.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="row">
+            <div class="maintype col-md-5">
+                    <span style="font-family:DFKai-sb;" onclick="location.href='首頁.html'">元智租教室</span>
+                    
+                </div>
+            <div class="bar col-md-4"style="margin-left:15%;margin-top:2%">
+                    <button class="btn btn-info" onclick="location.href='首頁.html'">首頁</button>
+                    <button class="btn btn-info" onclick="history.back()">上一頁</button>
+                    <button id="login" class="btn btn-primary" onclick="location.href='login.html'">登入</button>
+                    <button id="logout" class="btn btn-secondary" href="#" onclick="logout()">登出</button>
+                <span id="username">UserName:</span>
+                </div>
+                
+            <div class="host col-md-1"style="padding-left:5%;margin-top:2%"><i class="fas fa-child fa-4x"></i></div>
+        </div>
+    </div>
+       
+    
+    <hr style="height: 2px;color:#000;background-color:#000;border: none;">
+
+    <!--------------------------------------------->
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="regis-3 col-md-5 "style="margin-top: 10%;">
+                <input type="button" id="regis" value="註冊" style="width:500px;background-color: white;" onclick="location.href='http://localhost:2000/public/註冊.html'">
+            </div>
+            
+            <div class="regis-4 col-md-5 "style="margin-top: 10%; ">
+                <input type="button" id="regis2" value="登入"style="width:500px;margin-left:15%;background-color:white;" onclick="location.href='http://localhost:2000/public/login.html'">               
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

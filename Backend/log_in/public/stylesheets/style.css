@@ -1,0 +1,152 @@
+
+.maintype
+{
+    display: inline;
+    text-align: left;
+    
+    text-shadow: rgb(161, 134, 134) 4px 4px 4px;
+   font-size: 400%; 
+}
+/* 元智租屋網 */
+.bar
+{
+    display: inline;
+    padding-left: 56%;
+}
+/* 上一頁、登入、登出 */
+#host
+{
+    display: inline;
+    
+    padding-left: 5%;
+}
+/* 訪客登入icon */
+.regis-1
+{
+    width: 150%;
+    text-align: center;
+}
+
+/* div正方框大小 */
+#regis
+{
+    height: 200px;
+    line-height: 200px;
+    font-size: 220%;
+}
+/* 對齊、字體大小、高度 */
+.regis-2
+{
+    text-align: center;   
+}
+/* div正方框大小 */
+
+#regis2
+{
+    height: 200px;
+    line-height: 200px; 
+    font-size: 220%;
+}
+/* 對齊、字體大小、高度 */
+
+#re1
+{
+    font-size: 30px;
+    position: fixed;
+    top: 30%;
+    left: 20%;
+}
+/* 姓名 */
+
+#re2
+{
+    font-size: 30px;
+    position: fixed;
+    top: 50%;
+    left: 20%;
+}
+/* Email */
+
+#re3
+{
+    font-size: 30px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+}
+/* 學號 */
+
+#re4
+{
+    font-size: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+/* 密碼 */
+
+#re5
+{
+    font-size: 30px;
+    position: fixed;
+    top: 70%;
+    left: 47%;
+}
+/* 確認密碼 */
+
+#bt1
+{
+    position: fixed;
+    top: 85%;
+    left: 35%;
+}
+
+/* 送出button */
+#bt2
+{
+    position: fixed;
+    top: 85%;
+    left: 55%;
+}
+/* 取消button */
+
+#snb
+{
+    font-size: 30px;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+}
+
+#snb1
+{
+    font-size: 30px;
+    position: fixed;
+    top: 40%;
+    left: 35%;
+}
+
+#loginbtn
+{
+    position: fixed;
+    top: 60%;
+    left: 55%;
+}
+#Regbtn{
+    position: fixed;
+    top: 60%;
+    left: 38%;
+}
+#forgetbtn
+{
+    position: fixed;
+    top: 60%;
+    left: 52%;
+}
+.none{
+    display: none;
+}
+.disabled-radio{
+    pointer-events:none;
+    opacity:0.5;
+}
